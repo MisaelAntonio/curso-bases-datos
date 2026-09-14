@@ -1,0 +1,3 @@
+# 02 - CRUD Básico
+
+INSERT, UPDATE, DELETE, SELECT
