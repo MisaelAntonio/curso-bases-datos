@@ -1,0 +1,65 @@
+# Backups y dumps de bases de datos
+*.bak
+*.bacpac
+*.dump
+*.sql.gz
+*.sql.bak
+
+# Archivos de datos pesados
+*.csv
+*.mdf
+*.ldf
+*.ibd
+*.frm
+*.opt
+
+# Configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Artefactos de sistema operativo
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+*.swp
+*.swo
+*~
+
+# Editores y IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.code-workspace
+
+# Credenciales y secretos
+*.pem
+*.key
+*.pub
+secrets.*
+.ssh/
+
+# Node y herramientas
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Docker
+.dockerignore
+
+# Logs
+*.log
+logs/
+
+# Sistema
+.env.vault
